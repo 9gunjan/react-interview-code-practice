@@ -25,12 +25,12 @@ const APIDataFetcher = () => {
 
   return (
     <div className="parent-container">
-      <h2>Pokémon List</h2>
+      <h2>Pokemon List</h2>
       <ul>
         {pokemonList.map((pokemon) => (
           <li key={pokemon.name} className="pokemon-item">
             <h3>{pokemon.name}</h3>
-            <a href={pokemon.url} target="_blank" rel="noopener noreferrer">
+            <a href={pokemon.url} target="" rel="">
               View Details
             </a>
           </li>
