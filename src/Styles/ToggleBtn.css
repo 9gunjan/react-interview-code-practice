@@ -1,0 +1,27 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  /* transition: background-color 0.3s; */
+}
+
+.on {
+  background-color: green;
+  color: white;
+}
+
+.off {
+  background-color: red;
+  color: white;
+}
