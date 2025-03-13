@@ -1,0 +1,32 @@
+.parent-container-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: cadetblue;
+}
+
+.heading-text-container {
+  background-color: aliceblue;
+  border-radius: 10px;
+  min-width: 80vw;
+}
+
+h1 {
+  margin: 40px;
+}
+
+p {
+  margin: 40px;
+}
+
+.toggle-btnn{
+  padding: 40px;
+  font-size: 40px;
+  border-radius: 20px;
+  border: none;
+  color:rgb(12, 86, 88);
+  cursor: pointer;
+
+}
