@@ -1,0 +1,17 @@
+.parent-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+ background-color: antiquewhite;
+}
+h2{
+  font-size: xx-large;
+}
+
+
+.pokemon-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
