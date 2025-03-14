@@ -1,4 +1,5 @@
 import "./App.css";
+import Accordion from "./Components/Accordion";
 import APIDataFetcher from "./Components/APIDataFetcher";
 import Counter from "./Components/Counter";
 import ShowHide from "./Components/ShowHide";
@@ -12,7 +13,8 @@ function App() {
       {/* <ToggleButton/> */}
       {/* <APIDataFetcher /> */}
       {/* <ShowHide /> */}
-      <SignUpForm />
+      {/* <SignUpForm /> */}
+      <Accordion />
     </div>
   );
 }
