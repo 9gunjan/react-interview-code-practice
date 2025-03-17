@@ -3,6 +3,7 @@ import Accordion from "./Components/Accordion";
 import APIDataFetcher from "./Components/APIDataFetcher";
 import Counter from "./Components/Counter";
 import Debouncing from "./Components/Debouncing";
+import FetchApi from "./Components/FetchApi";
 import ProgressBar from "./Components/ProgressBar";
 import ShowHide from "./Components/ShowHide";
 import SignUpForm from "./Components/SignUpForm";
@@ -18,7 +19,8 @@ function App() {
       {/* <SignUpForm /> */}
       {/* <Accordion /> */}
       {/* <Debouncing /> */}
-      <ProgressBar/>
+      {/* <ProgressBar/> */}
+      <FetchApi/>
       
     </div>
   );
