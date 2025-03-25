@@ -4,10 +4,13 @@ import APIDataFetcher from "./Components/APIDataFetcher";
 import Counter from "./Components/Counter";
 import Debouncing from "./Components/Debouncing";
 import FetchApi from "./Components/FetchApi";
+import InfiniteScroller from "./Components/InfiniteScroller";
 import ProgressBar from "./Components/ProgressBar";
 import ShowHide from "./Components/ShowHide";
 import SignUpForm from "./Components/SignUpForm";
-import ToggleButton from "./Components/ToggleButton";
+// import { useTheme , ThemeProvider} from "./Components/Theme";
+import ThemeToggle from "./Components/ThemeToggle";
+
 
 function App() {
   return (
@@ -20,8 +23,8 @@ function App() {
       {/* <Accordion /> */}
       {/* <Debouncing /> */}
       {/* <ProgressBar/> */}
-      <FetchApi/>
-      
+      {/* <FetchApi/> */}
+      <InfiniteScroller/>
     </div>
   );
 }
